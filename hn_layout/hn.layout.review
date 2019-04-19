@@ -1,0 +1,81 @@
+<!-- START hn-review -->
+      <div class="hn-review">
+         <div class="container">
+            <div class="hn-review-box">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="hn-review-box-title">
+                        <p>OUR TESTIMONIALS</p>
+                        <h1><strong>See what our satisfied customers are saying about us</strong></h1>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <!-- START hn-review BOX -->
+                  <div class="col-12 col-md-6">
+                     <div class="hn-review-box-item">
+                        <div class="hn-review-avatar">
+                           <img src="hn_images/huunhan-t1.jpg" alt="">
+                        </div>
+                        <div class="hn-review-content">
+                           <h5>Great teachers</h5>
+                           <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                           <h6><span>Maria Smith</span>, Student</h6>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END hn-review BOX -->
+                  <!-- START hn-review BOX -->
+                  <div class="col-12 col-md-6">
+                     <div class="hn-review-box-item">
+                        <div class="hn-review-avatar">
+                           <img src="hn_images/huunhan-t1.jpg" alt="">
+                        </div>
+                        <div class="hn-review-content">
+                           <h5>Great teachers</h5>
+                           <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                           <h6><span>Maria Smith</span>, Student</h6>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END hn-review BOX -->
+                  <!-- START hn-review BOX -->
+                  <div class="col-12 col-md-6">
+                     <div class="hn-review-box-item">
+                        <div class="hn-review-avatar">
+                           <img src="hn_images/huunhan-t1.jpg" alt="">
+                        </div>
+                        <div class="hn-review-content">
+                           <h5>Great teachers</h5>
+                           <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                           <h6><span>Maria Smith</span>, Student</h6>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END hn-review BOX -->
+                  <!-- START hn-review BOX -->
+                  <div class="col-12 col-md-6">
+                     <div class="hn-review-box-item">
+                        <div class="hn-review-avatar">
+                           <img src="hn_images/huunhan-t1.jpg" alt="">
+                        </div>
+                        <div class="hn-review-content">
+                           <h5>Great teachers</h5>
+                           <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                           <h6><span>Maria Smith</span>, Student</h6>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- END hn-review BOX -->
+               </div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="hn-review-button text-center ">
+                        <button class="btn btn-primary">Read More</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END hn-review <-->

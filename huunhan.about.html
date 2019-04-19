@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>ACADEMY - Education online</title>
+   <link rel="icon" href="hn_images/huunhan-favicon.ico">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- BOOTSTRAP CSS -->
+   <link rel="stylesheet" href="hn_css/hn_bootstrap_css/bootstrap.min.css">
+   <!-- FONT AWESOME -->
+   <link rel="stylesheet" href="hn_font/hn_fontawesome/css/all.min.css">
+   <!-- STYLE CSS FILE -->
+   <link rel="stylesheet" href="huunhan.style.css">
+   <!-- fancybox css -->
+   <link rel="stylesheet" href="hn_css/jquery.fancybox.min.css" />
+</head>
+<body>
+   <!-- START HEADER -->
+   <div class="hn-header">
+      <!-- START TOP-HEADER -->
+      <div class="hn-top-header d-flex align-items-center">
+         <div class="container">
+            <div class="row w-100 d-flex justify-content-between">
+               <div class="hn-header-logo">
+                  <img src="hn_images/huunhan-logo.png" alt="">
+               </div>
+               <div class="hn-header-link text-right">
+                  <a href="">Đăng ký</a> |
+                  <a href="">Đăng nhập</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END TOP-HEADER -->
+
+      <!-- START MENU LEFT -->
+      <div class="hn-navbar-collapse navbar-collapse collapse d-lg-none" style=""id="navbarToggleExternalContent">
+         <!-- CLOSE MENU -->
+         <button onclick="hide_navbar()">X</button>
+         <ul>
+            <li><a href="">TRANG CHỦ</a></li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  HỌC TẬP
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                  <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                  <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                  <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                  <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+               </div>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GIẢI TRÍ
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">LINK 1</a>
+                  <a class="dropdown-item" href="#">LINK 2</a>
+                  <a class="dropdown-item" href="#">LINK 3</a>
+                  <a class="dropdown-item" href="#">LINK 4</a>
+               </div>
+            </li>
+            <li><a href="">KHÓA HỌC</a></li>
+            <li><a href="">HỖ TRỢ</a></li>
+         </ul>
+      </div>
+      <!-- END MENU LEFT -->
+      <div class="hn-navbar" id="js-sticky">
+         <div class="container">
+            <div class="hn-header-navbar d-flex align-items-center justify-content-between">
+               <nav class="hn-menu">
+                  <!-- MENU LEFT TOGGLER -->
+                  <button class="navbar-toggler d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <i class="fas fa-bars"></i>
+                  </button>
+                  <ul class="d-none d-lg-block">
+                     <li><a href="">TRANG CHỦ</a></li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           HỌC TẬP
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                           <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                           <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                           <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                           <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                        </div>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           GIẢI TRÍ
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">LINK 1</a>
+                           <a class="dropdown-item" href="#">LINK 2</a>
+                           <a class="dropdown-item" href="#">LINK 3</a>
+                           <a class="dropdown-item" href="#">LINK 4</a>
+                        </div>
+                     </li>
+                     <li><a href="">KHÓA HỌC</a></li>
+                     <li><a href="">HỖ TRỢ</a></li>
+                  </ul>
+               </nav>
+               <div class="hn-header-contact d-flex align-items-center">
+                  <i class="fas fa-phone icon-telephone" style="margin: 5px 20px;"></i>
+                  <span class="d-none d-md-block">(+84) 929 77 88 99</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- END HEADER -->
+
+
+
+
+   <div class="hn-page">
+      <div class="hn-title-bg" style="background-image: url(hn_images/huunhan-breadcumb.jpg);">
+      </div>
+      <div class="hn-title-box">
+         <h1>About Us</h1>
+      </div>
+      <div class="hn-page-content">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="hn-section-heading">
+                     <span>The Best</span>
+                     <h1><strong>We are the Academy</strong></h1>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-6">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam molestiae adipisci, magnam distinctio sequi velit perferendis commodi nemo consequuntur voluptatibus consectetur earum sunt ex quam soluta debitis, praesentium reiciendis quidem!</p>
+               </div>
+               <div class="col-6">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam molestiae adipisci, magnam distinctio sequi velit perferendis commodi nemo consequuntur voluptatibus consectetur earum sunt ex quam soluta debitis, praesentium reiciendis quidem!</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="hn-about-slide">
+                     <!-- START carousel -->
+                     <div class="hn-header-carousel">
+                        <div class="fluid">
+                           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                 <!-- SLIDE-ITEM -->
+                                 <div class="hn-carousel-item carousel-item active">
+                                    <!-- IMAGES -->
+                                    <img class="d-block w-100 d-flex align-items-center" src="hn_images/huunhan-bg-1.jpg" alt="First slide">
+                                 </div>
+                                 <!-- END SLIDE-ITEM -->
+                                 <!-- SLIDE-ITEM -->
+                                 <div class="hn-carousel-item carousel-item">
+                                    <!-- IMAGES -->
+                                    <img class="d-block w-100 d-flex align-items-center" src="hn_images/huunhan-bg-2.jpg" alt="Second slide">
+                                 </div>
+                                 <!-- END SLIDE-ITEM -->
+                              </div>
+                              <!-- PREVIOUS, NEXT BUTTON -->
+                              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                 <span class="sr-only">Next</span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- END Carousel <-->
+                  </div>
+               </div>
+            </div>
+
+            <div class="row">
+               <div class="col-12">
+                  <div class="hn-section-heading" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                     <span>The Best</span>
+                     <h1><strong>We are the Academy</strong></h1>
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 text-center">
+               <div class="row">
+                  <div class="col-md-3">
+                     <div class="hn-about-teacher-box">
+                        <img src="hn_images/tea1.jpg" alt="">
+                        <h5>Maria D. Smith</h5>
+                        <p>Marketing Proffesor  </p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="hn-about-teacher-box">
+                        <img src="hn_images/tea2.jpg" alt="">
+                        <h5>Simon Duval</h5>
+                        <p>Digital Proffesor</p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="hn-about-teacher-box">
+                        <img src="hn_images/tea3.jpg" alt="">
+                        <h5>James Hogan</h5>
+                        <p>HTML Proffesor</p>
+                     </div>
+                  </div>
+                  <div class="col-md-3">
+                     <div class="hn-about-teacher-box">
+                        <img src="hn_images/tea4.jpg" alt="">
+                        <h5>Claudia Williams</h5>
+                        <p>Marketing Proffesor </p>
+                     </div>
+                  </div>
+               </div>
+               <button class="btn mt-5">All Teachers</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+   <!-- START FOOTER -->
+   <div class="hn-footer">
+      <div class="container">
+         <div class="row">
+            <!-- START FOOTER BOX -->
+            <div class="col-12 col-sm-6 col-lg-3">
+               <div class="hn-footer-box">
+                  <div class="hn-footer-box-title">
+                     <a href=""><img src="hn_images/huunhan-logo2.png" alt=""></a>
+                  </div>
+                  <p>Cras vitae turpis lacinia, lacinia lacus non, fermentum nisi. Donec et sollicitudin est, in euismod erat. Ut at erat et arcu pulvinar cursus a eget.</p>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                  <a href=""><i class="fab fa-vimeo-v"></i></a>
+               </div>
+            </div>
+            <!-- END FOOTER BOX -->
+            <!-- START FOOTER BOX -->
+            <div class="col-12 col-sm-6 col-lg-3">
+               <div class="hn-footer-box">
+                  <div class="hn-footer-box-title">
+                     <h5>USEFULL LINKS</h5>
+                  </div>
+                  <div class="hn-usefull-links">
+                     <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Courses</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <!-- END FOOTER BOX -->
+            <!-- START FOOTER BOX -->
+            <div class="col-12 col-sm-6 col-lg-3">
+               <div class="hn-footer-box">
+                  <div class="hn-footer-box-title">
+                     <h5>GALLERY</h5>
+                  </div>
+                  <div class="hn-gallery-list d-flex justify-content-between flex-wrap">
+                     <a data-fancybox="gallery" href="hn_images/huunhan-gallery1.jpg" class="gallery-img" title="Gallery Image 1"><img src="hn_images/huunhan-gallery1.jpg" alt=""></a>
+                     <a data-fancybox="gallery" href="hn_images/huunhan-gallery2.jpg" class="gallery-img" title="Gallery Image 2"><img src="hn_images/huunhan-gallery2.jpg" alt=""></a>
+                     <a data-fancybox="gallery" href="hn_images/huunhan-gallery3.jpg" class="gallery-img" title="Gallery Image 3"><img src="hn_images/huunhan-gallery3.jpg" alt=""></a>
+                     <a data-fancybox="gallery" href="hn_images/huunhan-gallery4.jpg" class="gallery-img" title="Gallery Image 4"><img src="hn_images/huunhan-gallery4.jpg" alt=""></a>
+                     <a data-fancybox="gallery" href="hn_images/huunhan-gallery5.jpg" class="gallery-img" title="Gallery Image 5"><img src="hn_images/huunhan-gallery5.jpg" alt=""></a>
+                     <a data-fancybox="gallery" href="hn_images/huunhan-gallery6.jpg" class="gallery-img" title="Gallery Image 6"><img src="hn_images/huunhan-gallery6.jpg" alt=""></a>
+                  </div>
+               </div>
+            </div>
+            <!-- END FOOTER BOX -->
+            <!-- START FOOTER BOX -->
+            <div class="col-12 col-sm-6 col-lg-3">
+               <div class="hn-footer-box">
+                  <div class="hn-footer-box-title">
+                     <h5>CONTACT</h5>
+                  </div>
+                  <div class="hn-contact-item d-flex flex-row">
+                     <i class="fas fa-map-marker-alt"></i>
+                     <p>4127/ 5B-C Mislane Road, Gibraltar, UK</p>
+                  </div>
+                  <div class="hn-contact-item d-flex flex-row">
+                     <i class="fas fa-phone"></i>
+                     <div class="row">
+                        <p>Main: 203-808-8613</p>
+                        <p>Office: 203-808-8648</p>
+                     </div>
+                  </div>
+                  <div class="hn-contact-item d-flex flex-row">
+                     <i class="fas fa-envelope-open-text"></i>
+                     <p>office@yourbusiness.com</p>
+                  </div>
+               </div>
+            </div>
+            <!-- END FOOTER BOX -->
+         </div>
+      </div>
+   </div>
+   <!-- END FOOTER -->
+   <!-- END FOOTER COPYRIGHT -->
+   <div class="hn-copyright">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 text-center">
+               <p>Copyright ©2019 All rights reserved | This template is made with <i class="far fa-heart"></i> by Hui</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- END FOOTER COPYRIGHT -->
+</body>
+<!-- jquery.slim.min.js -->
+<script src="hn_js/jquery-3.4.0.slim.min.js"></script>
+<!-- jquery -->
+<script src="hn_js/jquery-3.4.0.min.js"></script>
+<!-- fancybox script -->
+<script src="hn_js/jquery.fancybox.min.js"></script>
+<!-- popper js -->
+<script src="hn_js/popper.min.js"></script>
+<!-- bootstrap.min.js -->
+<script src="hn_js/hn_bootstrap_js/bootstrap.min.js"></script>
+<!-- STICKY,SHOW HIDE NAVBAR SCRIPT -->
+<script>
+   window.onscroll = function() {
+    myFunction()
+ };
+ var top_header = document.getElementsByClassName("hn-top-header")[0];
+ var navbar = document.getElementById("js-sticky");
+ var sticky = navbar.offsetTop + 40;
+
+ function myFunction() {
+    if (window.pageYOffset >= sticky) {
+     navbar.classList.add("sticky"), top_header.style.padding = "30px 0px 80px 0px", navbar.style.transform = "translateY(0%)"
+  } else {
+     navbar.classList.remove("sticky"), top_header.style.padding = "30px 0px 0px 0px";
+     navbar.style.transform = "translateY(50%)"
+  }
+}
+
+function hide_navbar() {
+ var a = document.getElementById("navbarToggleExternalContent");
+ a.classList.remove("show")
+};
+</script>
+</html>
