@@ -16,12 +16,26 @@ p{
 a {
 	color: #000
 }
-
+a:hover {
+	transition: all 0.5s;
+	text-decoration: none;
+	color: #69bc5f;
+}
+ul,li{
+	list-style-type: none;
+}
 .btn {
+	transition: all 0.3s;
 	border: none;
 	color: #fff;
 	padding: 15px 25px;
 	background-image: linear-gradient(to right, #61ba6d 0, #83c331 51%, #61ba6d 100%)
+}
+.btn:hover {
+	color: #ffffff;
+    background: #61ba6d;
+    background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
+    background: linear-gradient(to right, #61ba6d, #83c331);
 }
 
 
@@ -232,6 +246,7 @@ END HEADER
 
 /*START hn-features*/
 .hn-features {
+	margin-bottom: 100px;
 	background-color: #fff
 }
 
@@ -296,6 +311,7 @@ END HEADER
 
 /*START hn-review*/
 .hn-review {
+	margin-bottom: 100px;
 	background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(hn_images/huunhan-bg-2.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -353,8 +369,8 @@ END HEADER
 
 
 /*START hn-courses*/
-.hn-courses-box {
-	padding: 100px 0
+.hn-courses{
+	margin-bottom: 100px;
 }
 
 .hn-courses-box-title {
@@ -389,7 +405,7 @@ END HEADER
 	margin-bottom: 30px
 }
 
-.hn-course-content div {
+.hn-course-star i {
 	color: #ffa200;
 	font-size: .7rem;
 	margin-bottom: 30px
@@ -421,7 +437,7 @@ END HEADER
 
 /*START PARTNER*/
 .hn-partner {
-	padding-bottom: 100px
+	margin-bottom: 100px;
 }
 /*END PARTNER*/
 
@@ -523,4 +539,349 @@ END HEADER
 	.hn-features-box .row .col-md-4:last-child {
 		border-bottom: 0
 	}
+}
+
+
+
+
+/*
+
+  _____        _____ ______ 
+ |  __ \ /\   / ____|  ____|
+ | |__) /  \ | |  __| |__   
+ |  ___/ /\ \| | |_ |  __|  
+ | |  / ____ \ |__| | |____ 
+ |_| /_/    \_\_____|______|
+                            
+                            
+*/
+.hn-title-bg{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hn-title-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	height: 100px;
+	background: linear-gradient(to right, #61ba6d, #83c331);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    z-index: 30;
+}
+.hn-title-box h1{
+	font-weight: 700;
+	color: white;
+}
+
+
+@media (max-width:991.98px) {
+	.hn-title-box{
+	width: 300px;
+	}
+	.hn-title-box h1{
+	font-size: 2rem;
+	}
+}
+@media (max-width: 575.98px) { 
+	.hn-title-box{
+	width: 200px;
+	}
+	.hn-title-box h1{
+	font-size: 1.5rem;
+	}
+}
+
+.hn-section-heading{
+	text-align: center;
+}
+
+.hn-page-content{
+	margin: 150px 0
+}
+
+
+
+
+
+/*
+
+  ____  _      ____   _____    _____        _____ ______ 
+ |  _ \| |    / __ \ / ____|  |  __ \ /\   / ____|  ____|
+ | |_) | |   | |  | | |  __   | |__) /  \ | |  __| |__   
+ |  _ <| |   | |  | | | |_ |  |  ___/ /\ \| | |_ |  __|  
+ | |_) | |___| |__| | |__| |  | |  / ____ \ |__| | |____ 
+ |____/|______\____/ \_____|  |_| /_/    \_\_____|______|
+                                                         
+                                                         
+*/
+
+
+
+
+.hn-post{
+	width: 100%;
+    background-color: #eef3f6;
+    padding: 30px;
+    margin-bottom: 50px; 
+}
+.hn-post-img img{
+	margin-bottom: 50px;
+}
+.hn-post-img img{
+    height: auto;
+    max-width: 100%;
+}
+.hn-post-title{
+	transition: all 0.5s;
+	display: block;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: black;
+}
+.hn-post-title:hover{
+	text-decoration: none;
+	color: #69bc5f
+}
+.hn-post-meta{
+	color: #69bc5f;
+	display: block;
+	font-size: 0.8rem;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+.hn-post-excerpt{
+	margin-bottom: 50px;
+
+}
+
+.hn-pagination{
+	margin-left: 15px;
+}
+.hn-pagination .pagination a{
+	transition: all 0.5s;
+    width: 36px;
+    height: 36px;
+    background-color: #eef3f6;
+    display: block;
+    padding: 0;
+    border: none;
+    margin-right: 10px;
+    color: #242424;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 36px;
+}
+.hn-pagination .pagination a:hover{
+	color: white;
+    background-color: #61ba6d;
+}
+.hn-pagination .page-item.active .page-link{
+    background-color: #61ba6d;
+}
+.hn-blog-search{
+	width: 100%;
+    margin-bottom: 50px; 
+
+}
+.hn-blog-search form input{
+    width: 100%;
+    height: 48px;
+    border: none;
+    background-color: #eef3f6;
+    padding: 0 30px;
+    font-size: 12px;
+    font-style: italic;
+}
+.hn-blog-search form button{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    width: 55px;
+    height: 48px;
+    background-color: #69bc5f;
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+    color: #ffffff;
+}
+.hn-blog-categories{
+	width: 100%;
+    background-color: #eef3f6;
+    padding: 30px;
+    margin-bottom: 50px; 
+
+}
+
+.hn-blog-latest-posts{
+	width: 100%;
+    background-color: #eef3f6;
+    padding: 30px;
+    margin-bottom: 50px; 
+
+}
+.hn-last-post{
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+.hn-last-post-img img{
+	margin-right: 20px;
+	height: 70px;
+	width: 70px;
+}
+.hn-last-post-content a:hover{
+	transition: all 0.5s;
+	color: #69bc5f;
+	text-decoration: none
+}
+
+.hn-last-post-content p{
+	font-weight: 300;
+	font-size: 0.8rem;
+	color: #69bc5f;
+}
+
+
+
+
+/*
+           ____   ____  _    _ _______   _    _  _____ 
+     /\   |  _ \ / __ \| |  | |__   __| | |  | |/ ____|
+    /  \  | |_) | |  | | |  | |  | |    | |  | | (___  
+   / /\ \ |  _ <| |  | | |  | |  | |    | |  | |\___ \ 
+  / ____ \| |_) | |__| | |__| |  | |    | |__| |____) |
+ /_/    \_\____/ \____/ \____/   |_|     \____/|_____/ 
+ */                                                      
+         
+.hn-section-heading{
+	margin-bottom: 100px;
+}
+.hn-about-slide{
+	margin: 100px 0;
+}
+.hn-about-teacher-box{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.hn-about-teacher-box img{
+	margin-bottom: 20px;
+	max-width: 100%;
+	height: auto;
+}
+.hn-about-teacher-box p{
+	color: #69bc5f;
+}
+
+/*
+
+   _____ ____  _    _ _____   _____ ______  _____   _____        _____ ______ 
+  / ____/ __ \| |  | |  __ \ / ____|  ____|/ ____| |  __ \ /\   / ____|  ____|
+ | |   | |  | | |  | | |__) | (___ | |__  | (___   | |__) /  \ | |  __| |__   
+ | |   | |  | | |  | |  _  / \___ \|  __|  \___ \  |  ___/ /\ \| | |_ |  __|  
+ | |___| |__| | |__| | | \ \ ____) | |____ ____) | | |  / ____ \ |__| | |____ 
+  \_____\____/ \____/|_|  \_\_____/|______|_____/  |_| /_/    \_\_____|______|
+                                                                              
+                                                                              
+*/
+.hn-big-courses{
+    background-color: #eef3f6;
+}
+.hn-big-courses-content{
+	margin-right: 40px;
+}
+
+.hn-big-courses-img{
+	height: auto;
+}
+.hn-big-courses-img img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+/*
+   _____ ____  _   _ _______       _____ _______   _    _  _____ 
+  / ____/ __ \| \ | |__   __|/\   / ____|__   __| | |  | |/ ____|
+ | |   | |  | |  \| |  | |  /  \ | |       | |    | |  | | (___  
+ | |   | |  | | . ` |  | | / /\ \| |       | |    | |  | |\___ \ 
+ | |___| |__| | |\  |  | |/ ____ \ |____   | |    | |__| |____) |
+  \_____\____/|_| \_|  |_/_/    \_\_____|  |_|     \____/|_____/ 
+                                                                 
+                                                                 
+*/
+
+
+
+
+
+
+
+
+.hn-contact-form{
+	transform: translateY(-200px);
+	background:  #eef3f6;
+	padding: 50px;
+}
+.hn-contact-form span{
+	margin-bottom: 20px;
+}
+.hn-contact-form h1{
+	margin-bottom: 50px;
+}
+.hn-contact-form p{
+	margin-bottom: 20px;
+}
+.hn-contact-form i{
+	color: #69bc5f;
+	padding: 0;
+	margin: 20px 10px;
+}
+.hn-contact-form .hn-contact-item{
+	margin-top: 10px;
+}
+.hn-contact-form .hn-contact-item i{
+	margin: 0;
+	margin-right: 10px;
+}
+
+.contact-form-area input, textarea{
+	height: 55px;
+    width: 100%;
+    background-color: #eef3f6;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0;
+    padding: 15px 25px;
+}
+.form-control{
+    padding: 15px 25px;
+    font-size: 12px;
+    color: #495057;
+    background-color: #eef3f6;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.form-control:focus {
+    padding: 15px 25px;
+    font-size: 12px;
+    color: #495057;
+    background-color: #eef3f6;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
