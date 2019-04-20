@@ -17,11 +17,8 @@ a {
 	color: #000
 }
 a:hover {
-<<<<<<< HEAD
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	transition: all 0.5s;
 	text-decoration: none;
 	color: #69bc5f;
@@ -30,11 +27,8 @@ ul,li{
 	list-style-type: none;
 }
 .btn {
-<<<<<<< HEAD
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	transition: all 0.3s;
 	border: none;
 	color: #fff;
@@ -48,12 +42,9 @@ ul,li{
 	color: #ffffff;
     background: #61ba6d;
     background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-<<<<<<< HEAD
     background: -webkit-gradient(linear, left top, right top, from(#61ba6d), to(#83c331));
     background: -webkit-linear-gradient(left, #61ba6d, #83c331);
     background: -o-linear-gradient(left, #61ba6d, #83c331);
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
     background: linear-gradient(to right, #61ba6d, #83c331);
 }
 
@@ -374,12 +365,9 @@ END HEADER
 /*START hn-review*/
 .hn-review {
 	margin-bottom: 100px;
-<<<<<<< HEAD
 	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .8)), to(rgba(0, 0, 0, .8))), url(hn_images/huunhan-bg-2.jpg);
 	background-image: -webkit-linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(hn_images/huunhan-bg-2.jpg);
 	background-image: -o-linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(hn_images/huunhan-bg-2.jpg);
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(hn_images/huunhan-bg-2.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -649,7 +637,6 @@ END HEADER
     background-repeat: no-repeat;
 }
 .hn-title-box{
-<<<<<<< HEAD
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -669,16 +656,6 @@ END HEADER
     -webkit-transform: translate(-50%,-50%);
         -ms-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
-=======
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 500px;
-	height: 100px;
-	background: linear-gradient(to right, #61ba6d, #83c331);
-    position: absolute;
-    transform: translate(-50%,-50%);
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
     left: 50%;
     z-index: 30;
 }
@@ -746,11 +723,8 @@ END HEADER
     max-width: 100%;
 }
 .hn-post-title{
-<<<<<<< HEAD
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	transition: all 0.5s;
 	display: block;
 	font-size: 1.5rem;
@@ -778,11 +752,8 @@ END HEADER
 	margin-left: 15px;
 }
 .hn-pagination .pagination a{
-<<<<<<< HEAD
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	transition: all 0.5s;
     width: 36px;
     height: 36px;
@@ -847,17 +818,12 @@ END HEADER
 }
 .hn-last-post{
 	margin-top: 30px;
-<<<<<<< HEAD
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: start;
 	    -ms-flex-pack: start;
 	        justify-content: flex-start;
-=======
-	display: flex;
-	justify-content: flex-start;
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 }
 .hn-last-post-img img{
 	margin-right: 20px;
@@ -865,11 +831,8 @@ END HEADER
 	width: 70px;
 }
 .hn-last-post-content a:hover{
-<<<<<<< HEAD
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
-=======
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	transition: all 0.5s;
 	color: #69bc5f;
 	text-decoration: none
@@ -963,13 +926,9 @@ END HEADER
 
 
 .hn-contact-form{
-<<<<<<< HEAD
 	-webkit-transform: translateY(-200px);
 	    -ms-transform: translateY(-200px);
 	        transform: translateY(-200px);
-=======
-	transform: translateY(-200px);
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 	background:  #eef3f6;
 	padding: 50px;
 }
@@ -1012,12 +971,8 @@ END HEADER
     color: #495057;
     background-color: #eef3f6;
     outline: 0;
-<<<<<<< HEAD
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
             box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-=======
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 }
 .form-control:focus {
     padding: 15px 25px;
@@ -1025,10 +980,6 @@ END HEADER
     color: #495057;
     background-color: #eef3f6;
     outline: 0;
-<<<<<<< HEAD
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
             box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-=======
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
->>>>>>> e1ef12c15cbfb99ecb81f576b07b6a85b8c2887e
 }
