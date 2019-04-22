@@ -27,12 +27,13 @@ ul,li{
 	list-style-type: none;
 }
 .btn {
+	border-radius: 0;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	border: none;
 	color: #fff;
-	padding: 15px 25px;
+	padding: 10px 25px;
 	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #61ba6d), color-stop(51%, #83c331), to(#61ba6d));
 	background-image: -webkit-linear-gradient(left, #61ba6d 0, #83c331 51%, #61ba6d 100%);
 	background-image: -o-linear-gradient(left, #61ba6d 0, #83c331 51%, #61ba6d 100%);
@@ -628,6 +629,10 @@ END HEADER
                             
                             
 */
+
+.hn-page-title{
+	margin-bottom: 100px;
+}
 .hn-title-bg{
 	width: 100%;
 	height: 200px;
@@ -687,7 +692,7 @@ END HEADER
 }
 
 .hn-page-content{
-	margin: 150px 0
+	margin-bottom: 100px;
 }
 
 
@@ -709,7 +714,7 @@ END HEADER
 
 
 
-.hn-post{
+.hn-post-item{
 	width: 100%;
     background-color: #eef3f6;
     padding: 30px;
@@ -722,7 +727,7 @@ END HEADER
     height: auto;
     max-width: 100%;
 }
-.hn-post-title{
+.hn-post-item .hn-post-title{
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
@@ -732,7 +737,7 @@ END HEADER
 	margin-bottom: 10px;
 	color: black;
 }
-.hn-post-title:hover{
+.hn-post-item .hn-post-title:hover{
 	text-decoration: none;
 	color: #69bc5f
 }
@@ -966,20 +971,148 @@ END HEADER
     padding: 15px 25px;
 }
 .form-control{
+	border-radius: 0;
+	border: 0;
     padding: 15px 25px;
     font-size: 12px;
     color: #495057;
     background-color: #eef3f6;
     outline: 0;
+}
+.form-control:focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
             box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
-.form-control:focus {
-    padding: 15px 25px;
-    font-size: 12px;
-    color: #495057;
+
+
+
+
+
+/*
+
+  _____   ____   _____ _______   _____        _____ ______ 
+ |  __ \ / __ \ / ____|__   __| |  __ \ /\   / ____|  ____|
+ | |__) | |  | | (___    | |    | |__) /  \ | |  __| |__   
+ |  ___/| |  | |\___ \   | |    |  ___/ /\ \| | |_ |  __|  
+ | |    | |__| |____) |  | |    | |  / ____ \ |__| | |____ 
+ |_|     \____/|_____/   |_|    |_| /_/    \_\_____|______|
+                                                           
+                                                           
+*/
+
+
+.hn-post-title{
+
+	margin-bottom: 50px;
+}
+.hn-post-title-bg{
+	width: 100%;
+	height: 100vh;
+	background: center center;
+}
+
+.hn-post-title-box{
+	color: white;
+	bottom: 0;
+	padding: 20px 30px;
+	background-color: rgba(0,0,0,0.3);
+}
+.hn-post-content{
+
+}
+.hn-post-content p{
+	text-align: justify;
+	line-height: 2rem;
+	margin-bottom: 20px;
+}
+.hn-post-content img{
+	width: 100%;
+	height: auto;
+	line-height: 2rem;
+	margin-bottom: 20px;
+}
+.hn-post-content iframe{
+	line-height: 2rem;
+	margin-bottom: 20px;
+}
+.hn-post-comment{
+	padding: 20px;
+}
+.hn-post-comment .hn-comment-form input{
+	margin-bottom: 20px;
+}
+.hn-comment-list{
+	padding: 20px;
     background-color: #eef3f6;
-    outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.hn-comment-list .comment .avartar{
+	display: inline-block;
+}
+.hn-comment-list .comment h5{
+	display: inline-block;
+}
+
+.hn-comment-list .comment .avartar img{
+	height: 80px;
+	width: 80px;
+}
+.comment{
+	margin-bottom: 20px;
+}
+.sub-comment{
+	border-left: 1px solid rgba(0,0,0,0.1);
+	padding-left: 10px;
+	margin-left: 80px;
+}
+.comment-content{
+	padding:0 10px;
+}
+
+
+
+
+/*
+  _      ____   _____ _____ _   _       __   _____ _____ _____ _   _ _    _ _____  
+ | |    / __ \ / ____|_   _| \ | |     / /  / ____|_   _/ ____| \ | | |  | |  __ \ 
+ | |   | |  | | |  __  | | |  \| |    / /  | (___   | || |  __|  \| | |  | | |__) |
+ | |   | |  | | | |_ | | | | . ` |   / /    \___ \  | || | |_ | . ` | |  | |  ___/ 
+ | |___| |__| | |__| |_| |_| |\  |  / /     ____) |_| || |__| | |\  | |__| | |     
+ |______\____/ \_____|_____|_| \_| /_/     |_____/|_____\_____|_| \_|\____/|_|     
+                                                                                   
+                                                                                   
+*/
+
+
+
+.hn-login-form{
+	padding: 30px;
+	border: 2px solid #61ba6d;
+	display: inline-block;
+	margin: 100px auto;
+}
+
+.hn-login-form a{
+	display: block;
+	margin: 10px;color: #69bc5f;
+	font-size: 0.8rem;
+}
+
+.login-content {
+	padding: 20px;
+}
+.hn-login-form h4{
+	margin-bottom: 20px;
+}
+.hn-login-form input{
+	border: 2px solid transparent;
+	background-color: transparent;
+	border-bottom: 2px solid  #61ba6d; 
+	padding: 20px 50px 20px 10px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+}
+.hn-login-form input:focus{
+	transition: all 0.5s;
+	border: 2px solid #61ba6d;
+	box-shadow: unset;
 }

@@ -23,11 +23,13 @@
                <div class="container">
                   <div class="row w-100 d-flex justify-content-between">
                      <div class="hn-header-logo">
-                        <img src="hn_images/huunhan-logo.png" alt="">
+                        <a href="huunhan.index.php">
+                           <img src="hn_images/huunhan-logo.png" alt="">
+                        </a>
                      </div>
                      <div class="hn-header-link text-right">
-                        <a href="">Đăng ký</a> |
-                        <a href="">Đăng nhập</a>
+                        <a href="huunhan.login.php">Đăng nhập</a> |
+                        <a href="huunhan.signup.php">Đăng ký</a>
                      </div>
                   </div>
                </div>
@@ -39,32 +41,22 @@
                <!-- CLOSE MENU -->
                <button onclick="hide_navbar()">X</button>
                <ul>
-                  <li><a href="">TRANG CHỦ</a></li>
+                  <li><a href="huunhan.index.php">TRANG CHỦ</a></li>
                   <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      HỌC TẬP
                      </a>
                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
-                        <a class="dropdown-item" href="#">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
                      </div>
                   </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     GIẢI TRÍ
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">LINK 1</a>
-                        <a class="dropdown-item" href="#">LINK 2</a>
-                        <a class="dropdown-item" href="#">LINK 3</a>
-                        <a class="dropdown-item" href="#">LINK 4</a>
-                     </div>
-                  </li>
-                  <li><a href="">KHÓA HỌC</a></li>
-                  <li><a href="">HỖ TRỢ</a></li>
+                  <li><a href="huunhan.courses.php">KHÓA HỌC</a></li>
+                  <li><a href="huunhan.contact.php">HỖ TRỢ</a></li>
+                  <li><a href="huunhan.about.php">VỀ CHÚNG TÔI</a></li>
                </ul>
             </div>
             <!-- END MENU LEFT -->
@@ -77,32 +69,22 @@
                         <i class="fas fa-bars"></i>
                         </button>
                         <ul class="d-none d-lg-block">
-                           <li><a href="huunhan.index.html">TRANG CHỦ</a></li>
-                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              HỌC TẬP
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="huunhan.blog.html">CÁC BÀI HỌC</a>
-                                 <a class="dropdown-item" href="huunhan.blog.html">CÁC BÀI HỌC</a>
-                                 <a class="dropdown-item" href="huunhan.blog.html">CÁC BÀI HỌC</a>
-                                 <a class="dropdown-item" href="huunhan.blog.html">CÁC BÀI HỌC</a>
-                                 <a class="dropdown-item" href="huunhan.blog.html">CÁC BÀI HỌC</a>
-                              </div>
-                           </li>
-                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              GIẢI TRÍ
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <a class="dropdown-item" href="#">LINK 1</a>
-                                 <a class="dropdown-item" href="#">LINK 2</a>
-                                 <a class="dropdown-item" href="#">LINK 3</a>
-                                 <a class="dropdown-item" href="#">LINK 4</a>
-                              </div>
-                           </li>
-                           <li><a href="huunhan.courses.html">KHÓA HỌC</a></li>
-                           <li><a href="huunhan.contact.html">HỖ TRỢ</a></li>
+                           <li><a href="huunhan.index.php">TRANG CHỦ</a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     HỌC TẬP
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                        <a class="dropdown-item" href="huunhan.blog.php">CÁC BÀI HỌC</a>
+                     </div>
+                  </li>
+                  <li><a href="huunhan.courses.php">KHÓA HỌC</a></li>
+                  <li><a href="huunhan.contact.php">HỖ TRỢ</a></li>
+                  <li><a href="huunhan.about.php">VỀ CHÚNG TÔI</a></li>
                         </ul>
                      </nav>
                      <div class="hn-header-contact d-flex align-items-center">

@@ -16,11 +16,11 @@
                   <div class="hn-blog-post">
                      <div class="row">
                         <div class="col-12">
-                           <div class="hn-post">
+                           <div class="hn-post-item">
                               <div class="hn-post-img">
                                  <img src="hn_images/blog-img/1.jpg" alt="">
                               </div>
-                              <a href="" class="hn-post-title">Top ten courses we love for you to try</a>
+                              <a href="huunhan.post.php" class="hn-post-title">Top ten courses we love for you to try</a>
                               <div class="hn-post-meta">
                                  <p>By Simon Smith | March 18, 2018 | 3 comments</p>
                               </div>
@@ -28,15 +28,15 @@
                               <div class="hn-post-excerpt">
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in magni deserunt excepturi commodi enim mollitia natus qui, ipsam atque doloribus, accusamus error, sequi dolores quo. Ab reprehenderit consectetur animi.</p>
                               </div>
-                              <a href="" class="btn">Read More</a>
+                              <a href="huunhan.post.php" class="btn">Read More</a>
                            </div>
                         </div>
                         <div class="col-12">
-                           <div class="hn-post">
+                           <div class="hn-post-item">
                               <div class="hn-post-img">
                                  <img src="hn_images/blog-img/1.jpg" alt="">
                               </div>
-                              <a href="" class="hn-post-title">Top ten courses we love for you to try</a>
+                              <a href="huunhan.post.php" class="hn-post-title">Top ten courses we love for you to try</a>
                               <div class="hn-post-meta">
                                  <p>By Simon Smith | March 18, 2018 | 3 comments</p>
                               </div>
@@ -44,15 +44,15 @@
                               <div class="hn-post-excerpt">
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in magni deserunt excepturi commodi enim mollitia natus qui, ipsam atque doloribus, accusamus error, sequi dolores quo. Ab reprehenderit consectetur animi.</p>
                               </div>
-                              <a href="" class="btn">Read More</a>
+                              <a href="huunhan.post.php" class="btn">Read More</a>
                            </div>
                         </div>
                         <div class="col-12">
-                           <div class="hn-post">
+                           <div class="hn-post-item">
                               <div class="hn-post-img">
                                  <img src="hn_images/blog-img/2.jpg" alt="">
                               </div>
-                              <a href="" class="hn-post-title">Top ten courses we love for you to try</a>
+                              <a href="huunhan.post.php" class="hn-post-title">Top ten courses we love for you to try</a>
                               <div class="hn-post-meta">
                                  <p>By Simon Smith | March 18, 2018 | 3 comments</p>
                               </div>
@@ -60,15 +60,15 @@
                               <div class="hn-post-excerpt">
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in magni deserunt excepturi commodi enim mollitia natus qui, ipsam atque doloribus, accusamus error, sequi dolores quo. Ab reprehenderit consectetur animi.</p>
                               </div>
-                              <a href="" class="btn">Read More</a>
+                              <a href="huunhan.post.php" class="btn">Read More</a>
                            </div>
                         </div>
                         <div class="col-12">
-                           <div class="hn-post">
+                           <div class="hn-post-item">
                               <div class="hn-post-img">
                                  <img src="hn_images/blog-img/3.jpg" alt="">
                               </div>
-                              <a href="" class="hn-post-title">Top ten courses we love for you to try</a>
+                              <a href="huunhan.post.php" class="hn-post-title">Top ten courses we love for you to try</a>
                               <div class="hn-post-meta">
                                  <p>By Simon Smith | March 18, 2018 | 3 comments</p>
                               </div>
@@ -76,15 +76,15 @@
                               <div class="hn-post-excerpt">
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in magni deserunt excepturi commodi enim mollitia natus qui, ipsam atque doloribus, accusamus error, sequi dolores quo. Ab reprehenderit consectetur animi.</p>
                               </div>
-                              <a href="" class="btn">Read More</a>
+                              <a href="huunhan.post.php" class="btn">Read More</a>
                            </div>
                         </div>
                         <div class="col-12">
-                           <div class="hn-post">
+                           <div class="hn-post-item">
                               <div class="hn-post-img">
                                  <img src="hn_images/blog-img/1.jpg" alt="">
                               </div>
-                              <a href="" class="hn-post-title">Top ten courses we love for you to try</a>
+                              <a href="huunhan.post.php" class="hn-post-title">Top ten courses we love for you to try</a>
                               <div class="hn-post-meta">
                                  <p>By Simon Smith | March 18, 2018 | 3 comments</p>
                               </div>
@@ -92,7 +92,7 @@
                               <div class="hn-post-excerpt">
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex in magni deserunt excepturi commodi enim mollitia natus qui, ipsam atque doloribus, accusamus error, sequi dolores quo. Ab reprehenderit consectetur animi.</p>
                               </div>
-                              <a href="" class="btn">Read More</a>
+                              <a href="huunhan.post.php" class="btn">Read More</a>
                            </div>
                         </div>
                      </div>
